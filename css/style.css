@@ -1,0 +1,36 @@
+/*---
+
+RESET
+
+---*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---
+
+GENERAL
+
+---*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---
+
+DEBUG
+
+---*/
+
+.debug header{
+    background-color: #FF6900;
+}
