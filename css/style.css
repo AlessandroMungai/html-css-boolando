@@ -68,6 +68,66 @@ MAIN
     
 }
 
+.my-row-products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+
+.my-col-image-one{
+    width: 33%;
+    width: calc(33% - 10px);
+    position: relative;
+    
+}
+
+.my-col-image-two{
+    width: 33%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: calc(33% - 10px);
+    position: relative;
+}
+
+.my-col-image-three{
+    width: 33%;
+    width: calc(33% - 10px);
+    position: relative;
+}
+
+.price-red{
+    color: red;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+}
+
+.discount-green{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+}
+
+.tag-img{
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+}
+
+
 /*---
 
 DEBUG
@@ -85,18 +145,19 @@ DEBUG
     padding: 10px 0;
 } */
 
-.debug .my-row-products{
+/* .debug .my-row-products{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
     
-}
+} */
 
-.debug .my-col-image-one{
-    width: 34%;
+/* .debug .my-col-image-one{
+    width: 33%;
     height: 600px;
     background-color: aqua;
-    width: calc(34% - 10px);
+    width: calc(33% - 10px);
     
 }
 
@@ -115,7 +176,7 @@ DEBUG
     height: 600px;
     background-color: rgb(225, 92, 92);
     width: calc(33% - 10px);
-}
+} */
 
 .debug footer{
     background-color: #b8e051;
