@@ -128,6 +128,21 @@ MAIN
 }
 
 
+.tag-img-middle{
+    position: absolute;
+    bottom: 105px;
+    left: 0px;
+}
+
+.like{
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+
 /*---
 
 DEBUG
