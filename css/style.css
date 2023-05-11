@@ -54,8 +54,16 @@ header{
 
 .logo-boolean{
     width: 100px;
+    margin-right: 90px;
 }
 
+.gender{
+    margin-right: 10px;
+}
+
+.icon-style{
+    margin-right: 10px;
+}
 
 /*---
 
@@ -155,6 +163,11 @@ MAIN
 .img-container:hover .img-style{
     display: none;
 }
+
+.like:hover .heart-red{
+    color: red;
+}
+
 
 /*---
 
