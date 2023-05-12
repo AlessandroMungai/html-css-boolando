@@ -43,7 +43,11 @@ HEADER
 
 header{
     background-color: #FF6900;
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .my-row-head{
@@ -75,8 +79,12 @@ MAIN
 .img-style{
     width: 100%;
     
+    
 }
 
+img{
+    display: block;
+}
 .my-row-products{
     display: flex;
     justify-content: center;
@@ -151,7 +159,7 @@ MAIN
 
 .img-container{
     margin-top: 20px;
-    height: 563px;
+    
 }
 
 .img-container:hover .second-img{
